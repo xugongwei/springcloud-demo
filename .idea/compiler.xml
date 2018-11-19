@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-commons" />
+        <module name="springcloud-project-comsumer-80" />
+        <module name="springcloud-project-provider-8081" />
+        <module name="springcloud-project-provider-8082" />
+        <module name="springcloud-project-provider-8083" />
+        <module name="springcloud-project-provider-hystrix-8081" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcloud-commons" target="1.8" />
+      <module name="springcloud-demo" target="1.8" />
+      <module name="springcloud-project-comsumer-80" target="1.8" />
+      <module name="springcloud-project-provider-8081" target="1.8" />
+      <module name="springcloud-project-provider-8082" target="1.8" />
+      <module name="springcloud-project-provider-8083" target="1.8" />
+      <module name="springcloud-project-provider-hystrix-8081" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springcloud-commons" options="-parameters" />
+      <module name="springcloud-project-comsumer-80" options="-parameters" />
+      <module name="springcloud-project-provider-8081" options="-parameters" />
+      <module name="springcloud-project-provider-8082" options="-parameters" />
+      <module name="springcloud-project-provider-8083" options="-parameters" />
+      <module name="springcloud-project-provider-hystrix-8081" options="-parameters" />
+    </option>
+  </component>
+</project>
