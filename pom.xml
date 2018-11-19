@@ -31,11 +31,6 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-consul-discovery</artifactId>
-        </dependency>
-
-        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
@@ -70,6 +65,7 @@
         <module>springcloud-project-provider-8082</module>
         <module>springcloud-project-provider-8083</module>
         <module>springcloud-project-provider-hystrix-8081</module>
+        <module>springcloud-project-hystrix-dashboard-9001</module>
     </modules>
 
 </project>
