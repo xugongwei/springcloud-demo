@@ -31,7 +31,7 @@ spring:
         service-name: ${spring.application.name}
         health-check-path: /actuator/health
         health-check-interval: 15s
-        tags: urlprefix-${spring.application.name}
+        tags: version=1.0，author=xugongwei
   application:
     name: springcloud-project-provider
 
@@ -39,9 +39,3 @@ mybatis:
   mapper-locations: classpath:mapper/*.xml
   configuration:
     map-underscore-to-camel-case: true
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: hystrix.stream
