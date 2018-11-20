@@ -57,6 +57,7 @@
         <module>springcloud-project-provider-8083</module>
         <module>springcloud-project-provider-hystrix-8081</module>
         <module>springcloud-project-hystrix-dashboard-9001</module>
+        <module>springcloud-project-zuul-gateway-9000</module>
     </modules>
 
 </project>

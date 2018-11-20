@@ -12,7 +12,7 @@ spring:
         service-name: ${spring.application.name}
         health-check-path: /actuator/health
         health-check-interval: 15s
-        tags: urlprefix-${spring.application.name}
+        tags: version=1.0，author=xugongwei
   application:
     name: springcloud-project-comsumer
 

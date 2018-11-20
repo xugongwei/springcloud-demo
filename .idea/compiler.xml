@@ -13,6 +13,7 @@
         <module name="springcloud-project-provider-8082" />
         <module name="springcloud-project-provider-8083" />
         <module name="springcloud-project-provider-hystrix-8081" />
+        <module name="springcloud-project-zuul-gateway-9000" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +25,7 @@
       <module name="springcloud-project-provider-8082" target="1.8" />
       <module name="springcloud-project-provider-8083" target="1.8" />
       <module name="springcloud-project-provider-hystrix-8081" target="1.8" />
+      <module name="springcloud-project-zuul-gateway-9000" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -35,6 +37,7 @@
       <module name="springcloud-project-provider-8082" options="-parameters" />
       <module name="springcloud-project-provider-8083" options="-parameters" />
       <module name="springcloud-project-provider-hystrix-8081" options="-parameters" />
+      <module name="springcloud-project-zuul-gateway-9000" options="-parameters" />
     </option>
   </component>
 </project>
